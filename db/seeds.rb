@@ -8,48 +8,63 @@
 #---
 # encoding: utf-8
 Product.delete_all
-Product.create!(title: 'Rails, Angular, Postgres, and Bootstrap',
+Product.create!(title: 'NIKE AIR ZOOM STRUCTURE 21',
   description:
     %{<p>
-      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>
-      As a Rails developer, you care about user experience and performance,
-      but you also want simple and maintainable code. Achieve all that by
-      embracing the full stack of web development, from styling with
-      Bootstrap, building an interactive user interface with AngularJS, to
-      storing data quickly and reliably in PostgreSQL. Take a holistic view of
-      full-stack development to create usable, high-performing applications,
-      and learn to use these technologies effectively in a Ruby on Rails
-      environment.
+      Lighter and stronger than the previous version, the Nike Air Zoom Structure 21 Men's Running Shoe provides 
+      the stability and support that made it a favorite. Softer, lightweight Flymesh material 
+      helps keep your feet cool, while responsive Nike Zoom Air cushioning in the forefoot gives you a snappy, springy feeling underfoot.
       </p>},
-  image_url: 'dcbang.jpg',    
-  price: 45.00)
+  image_url: 'nikegray.jpg',    
+  price: 120.00)
 # . . .
-Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
+Product.create!(title: 'NIKECOURT AIR ZOOM VAPOR X',
   description:
     %{<p>
-      <em>Native Apps, Multiple Platforms</em>
-      Answer the question “Can we build this for ALL the devices?” with a
-      resounding YES. This book will help you get there with a real-world
-      introduction to seven platforms, whether you’re new to mobile or an
-      experienced developer needing to expand your options. Plus, you’ll find
-      out which cross-platform solution makes the most sense for your needs.
+  With Nike Zoom Air and a Dynamic Fit system, the NikeCourt Air Zoom Vapor X Men's Tennis Shoe provides
+  ultimate control on the court.
+  Shown: Vast Grey/Atmosphere Grey/Volt Glow/Black
+  Style: AA8030-001
       </p>},
-  image_url: '7apps.jpg',
-  price: 26.00)
+  image_url: 'nikegreen.jpg',
+  price: 140.00)
 # . . .
 
-Product.create!(title: 'Ruby Performance Optimization',
+Product.create!(title: 'NIKE FLEX 2017 RN',
   description:
     %{<p>
-      <em>Why Ruby Is Slow, and How to Fix It</em> 
-      You don’t have to accept slow Ruby or Rails performance. In this
-      comprehensive guide to Ruby optimization, you’ll learn how to write
-      faster Ruby code—but that’s just the beginning. See exactly what makes
-      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you
-      through perils of memory and CPU optimization, profiling, measuring,
-      performance testing, garbage collection, and tuning. You’ll find that
-      all those “hard” things aren’t so difficult after all, and your code
-      will run orders of magnitude faster.
+     The Nike Flex 2017 RN Men's Running Shoe helps keep you light on your
+     feet from start to finish with an engineered mesh upper and lightweight, flexible outsole.
+     Shown: Black/Anthracite/Cool Grey/White
+     Style: 898457-001
       </p>},
-  image_url: 'adrpo.jpg',
-  price: 46.00)
+  image_url: 'nikeblack.jpg',
+  price: 70.00)
+# . . .
+
+Product.create!(title: 'FC BARCELONA',
+  description:
+    %{<p>COOL-WEATHER COVERAGE
+
+
+The FC Barcelona Men's Full-Zip Hoodie features team details on soft French terry fabric for a warm, comfortable feel.
+
+
+Benefits
+
+French terry fabric feels soft and warm
+Adjustable hood offers personalized coverage
+Rib cuffs and hem help keep the hoodie in place
+Split kangaroo pocket
+
+Product Details
+
+Fabric: Body/hood lining: 100% cotton. Rib: 98% cotton/2% spandex.
+Machine wash
+Imported
+Shown: Obsidian Heather/Hyper Crimson
+Style: 886697-473
+
+<p>},
+  image_url: 'nikebluehoodie.jpg',
+  price: 100.00)
