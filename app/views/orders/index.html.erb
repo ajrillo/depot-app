@@ -20,9 +20,9 @@
         <td><%= order.address %></td>
         <td><%= order.email %></td>
         <td><%= order.pay_type %></td>
-        <td><%= link_to 'Show', order , class:"w3-button w3-light-gray w3-border" %></td>
-        <td><%= link_to 'Edit', edit_order_path(order) , class:"w3-button w3-light-gray w3-border" %></td>
-        <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } , class:"w3-button w3-light-gray w3-border" %></td>
+        <td><%= link_to 'Show', order , class:"w3-button w3-border w3-light-green" %></td>
+        <td><%= link_to 'Edit', edit_order_path(order) , class:"w3-button w3-border w3-yellow" %></td>
+        <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } , class:"w3-button w3-border w3-red" %></td>
       </tr>
     <% end %>
   </tbody>

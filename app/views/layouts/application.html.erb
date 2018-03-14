@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Depot App</title>
+    <title>Nike Store</title>
     
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
 
   </head>
-
-  <body class="w3-container">
-
+   <body >
+     <header >
+ <div class="w3-container"> 
+   
+     
+  
     <div class="w3-bar w3-light-grey">
       <a href="/" class="w3-bar-item w3-button w3-border">
-        <%= image_tag 'nikelogo.PNG', alt: 'The Mad Icon', height: '28', width: '50', style: 'display: block; margin-left: auto; margin-right: auto; margin-bottom: none; margin-top: none' %></a>
+        <%= image_tag 'nikelogo.PNG', alt: 'The Nike Icon', height: '25', width: '40', style: 'display: block; margin-left: auto; margin-right: auto; margin-bottom: none; margin-top: none' %></a>
       <a href="/static_pages/home" class="w3-bar-item w3-button w3-border">Home</a>
       <a href="/" class="w3-bar-item w3-button w3-border">Store</a>
       <a href="/static_pages/help" class="w3-bar-item w3-button w3-border">Help</a>
@@ -30,11 +36,13 @@
 <% end %>
 
    </div>
+    
+    </div>
 
    <div class="w3-container">
     <%= yield %>
    </div>    
-
+    </header>
   </body>
 </html>
 
